@@ -40,11 +40,11 @@ main {
 #first > p {
   justify-items: center;
   background-color: #f56600;
-  height: 3rem;
+  height: 2rem;
   text-align: center;
   padding: 1rem;
   font-size: 1.5rem;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 #second {
@@ -92,7 +92,8 @@ div > p > span {
 #inner-2 {
   margin: 0;
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
+  text-align: justify;
   padding: 0;
 }
 
@@ -102,7 +103,7 @@ div > p > span {
 }
 
 .img {
-  width: 21%;
+  width: 22%;
   height: 30rem;
   margin: 1rem 2rem;
   border-radius: 10px;
@@ -111,6 +112,14 @@ div > p > span {
   display: inline-block;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.first {
+  margin-left: 0;
+}
+
+.last {
+  margin-right: 0;
 }
 
 #img1 {
